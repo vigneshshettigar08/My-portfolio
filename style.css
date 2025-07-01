@@ -719,7 +719,7 @@ p{
 .form-input::placeholder { font-weight: 500;}
 .form-input:foucs{border-color:  hsl(45, 100%, 72%);}
 
-textarea.form-input{
+.form.form-input{
     min-height: 100px;
     height: 120px;
     max-height: 120px;
@@ -727,7 +727,7 @@ textarea.form-input{
     margin-bottom: 25px;
 }
 
-textarea.form-input::-webkit-resizer{display: none;}
+.form.form-input::-webkit-resizer{display: none;}
 
 .form-input:focus:invalid{border-color:  hsl(0, 43%, 51%);}
 
@@ -751,6 +751,7 @@ textarea.form-input::-webkit-resizer{display: none;}
     box-shadow: 0 16px 40px hsla(0, 0%, 0%, 0.25);
     z-index: 1;
     transition: 0.25s ease;
+    margin-top: 20px;
 }
 
 .form-btn::before{
